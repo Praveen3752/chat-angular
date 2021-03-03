@@ -1,0 +1,52 @@
+.chat
+{
+    padding-top: 2rem;
+
+}
+
+div.chat-content
+{
+    border-radius: .25rem;
+    
+    margin-bottom: 2rem;
+}
+
+.card
+{
+    height: 30rem;
+    width: 75%;
+    margin: auto;
+    background: url(/assets/architecture-blur-buildings-cars-204366.jpg);
+    color: white;
+    overflow-y: auto;
+    background-size: 100% 100%;
+}
+
+.namediv
+{
+    font-weight: 600;
+    color: #CDDC39;
+}
+
+.otherstext
+{
+    padding: 1%;
+    margin: 1%;
+    text-align: left;
+    margin-right: 10%;
+    width: fit-content;
+    border-radius: 11px;
+    background: #6c6868;
+}
+
+.owntext
+{
+    padding: 1%;
+    margin: 1%;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 5px;
+    width: fit-content;
+    background: #307f99;
+    border-radius: 11px;
+}
