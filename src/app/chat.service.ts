@@ -35,7 +35,7 @@ export class ChatService
     };
 
     this.webSocket.onclose = (event) => {
-
+      this.closeWebSocket();
     }
 
   }

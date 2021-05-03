@@ -16,7 +16,8 @@ div.chat-content
     height: 30rem;
     width: 75%;
     margin: auto;
-    background: url(/assets/architecture-blur-buildings-cars-204366.jpg);
+    /* background: url(/assets/architecture-blur-buildings-cars-204366.jpg); */
+    background: #ffffffd6;
     color: white;
     overflow-y: auto;
     background-size: 100% 100%;
