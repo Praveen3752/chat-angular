@@ -24,7 +24,7 @@ export class ChatService
 
   public openWebSocket()
   {
-    this.webSocket = new WebSocket("ws://localhost:8080/chat");
+    this.webSocket = new WebSocket("ws://calm-plateau-10664.herokuapp.com/chat");
     this.webSocket.onopen = (event) => {
       
     }
