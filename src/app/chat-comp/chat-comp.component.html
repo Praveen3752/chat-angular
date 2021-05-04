@@ -7,7 +7,7 @@
     <div class="container">
         <div class="chat-content">
             <div class="card">
-                <ng-container *ngFor="let msg of chatservice.chatMessages">
+                <ng-container *ngFor="let msg of webSocketAPI.chatMessages">
                 <div class="owntext" *ngIf="chatservice.username == msg.user else mytext">
                     <div class="namediv">{{msg.user}}</div>
                     <div>{{msg.message}}</div>

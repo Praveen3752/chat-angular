@@ -23,8 +23,10 @@
     "emojionearea": "^3.4.2",
     "jquery": "^3.4.1",
     "net": "^1.0.2",
+    "ng2-stomp-service": "^1.2.2",
     "rxjs": "~6.4.0",
-    "sockjs-client": "^1.4.0",
+    "sockjs": "^0.3.21",
+    "sockjs-client": "^1.5.1",
     "stompjs": "^2.3.3",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
