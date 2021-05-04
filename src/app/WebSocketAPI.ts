@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { ChatCompComponent } from './chat-comp/chat-comp.component';
 import { ChatModel } from './ChatModel';
 export class WebSocketAPI {
-    webSocketEndPoint: string = 'http://localhost:8080/ws';
+    webSocketEndPoint: string = 'https://calm-plateau-10664.herokuapp.com/ws';
     topic: string = "/topic/public";
     stompClient: any;
     chatMessages : ChatModel[] = [];
