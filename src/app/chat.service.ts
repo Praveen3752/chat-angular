@@ -22,34 +22,34 @@ export class ChatService
     this.username = name;
   }
 
-  public openWebSocket()
-  {
-    this.webSocket = new WebSocket("ws://calm-plateau-10664.herokuapp.com/chat");
-    this.webSocket.onopen = (event) => {
+  // public openWebSocket()
+  // {
+  //   this.webSocket = new WebSocket("ws://calm-plateau-10664.herokuapp.com/chat");
+  //   this.webSocket.onopen = (event) => {
       
-    }
-    this.webSocket.onmessage = (event) => 
-    {
-      //console.log(JSON.parse(event.data));
-      this.chatMessages.push(JSON.parse(event.data));
-    };
+  //   }
+  //   this.webSocket.onmessage = (event) => 
+  //   {
+  //     //console.log(JSON.parse(event.data));
+  //     this.chatMessages.push(JSON.parse(event.data));
+  //   };
 
-    this.webSocket.onclose = (event) => {
-      this.closeWebSocket();
-    }
+  //   this.webSocket.onclose = (event) => {
+  //     this.closeWebSocket();
+  //   }
 
-  }
+  // }
 
-  public sendMessage(chatmodel : ChatModel)
-  {
-    console.log(JSON.stringify(chatmodel));
-    this.webSocket.send(JSON.stringify(chatmodel));
-  }
+  // public sendMessage(chatmodel : ChatModel)
+  // {
+  //   console.log(JSON.stringify(chatmodel));
+  //   this.webSocket.send(JSON.stringify(chatmodel));
+  // }
 
-  public closeWebSocket()
-  {
-    this.webSocket.close();
-  }
+  // public closeWebSocket()
+  // {
+  //   this.webSocket.close();
+  // }
 
 
 

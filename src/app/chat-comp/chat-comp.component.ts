@@ -34,7 +34,7 @@ export class ChatCompComponent implements OnInit,OnDestroy {
       }
       }
       );
-    this.chatservice.openWebSocket();
+   // this.chatservice.openWebSocket();
   }
 
   connect(){
@@ -42,7 +42,7 @@ export class ChatCompComponent implements OnInit,OnDestroy {
   }
 
   ngOnDestroy(){
-    this.chatservice.closeWebSocket();
+    //this.chatservice.closeWebSocket();
   }
 
   sendMessage()
